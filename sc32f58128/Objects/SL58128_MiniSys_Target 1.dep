@@ -1,0 +1,543 @@
+Dependencies for Project 'SL58128_MiniSys', Target 'Target 1': (DO NOT MODIFY !)
+F (.\source\User\SL_niv.c)(0x6284969D)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\sl_niv.o --omf_browse .\objects\sl_niv.crf --depend .\objects\sl_niv.d)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (.\include\user\sl_niv.h)(0x6281EC4E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_timer.h)(0x5FBE03CA)
+I (.\include\drive\BSP\BSP_dma.h)(0x60B9DF16)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_dma.h)(0x5FBE03CA)
+I (.\include\drive\BSP\BSP_uart.h)(0x627C6213)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_Uart.h)(0x5FBE0438)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\sc32f58128_can.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_func_share.h)(0x5FBE03CA)
+I (.\include\drive\BSP\BSP_gpio.h)(0x627B1B5B)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_Gpio.h)(0x5FBE03CA)
+I (.\include\drive\HAL\timer4Tick.h)(0x60B9DF16)
+I (.\include\drive\HAL\osc.h)(0x60B9DF16)
+I (.\MODBUS\Freemodbus\modbus\include\mb.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\port\port.h)(0x62838FC9)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (.\MODBUS\Freemodbus\modbus\include\mbport.h)(0x62833620)
+I (.\MODBUS\Freemodbus\modbus\include\mbproto.h)(0x62844BBA)
+I (.\MODBUS\Freemodbus\modbus\include\mbutils.h)(0x45783CFA)
+F (.\source\User\SL_main.c)(0x6284928A)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\sl_main.o --omf_browse .\objects\sl_main.crf --depend .\objects\sl_main.d)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_can.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_func_share.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_iic.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_pwm.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\IQmathLib.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\MultCtrl.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\DivCtrl.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\Cordic.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_bmsk.h)(0x5FBE03CA)
+I (.\include\drive\BSP\devInit.h)(0x627CC0F3)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_Gpio.h)(0x5FBE03CA)
+I (.\include\drive\HAL\timer4Tick.h)(0x60B9DF16)
+I (.\include\drive\HAL\osc.h)(0x60B9DF16)
+I (.\include\drive\BSP\BSP_gpio.h)(0x627B1B5B)
+I (.\include\drive\BSP\BSP_pwm.h)(0x6278D060)
+I (.\include\drive\BSP\BSP_uart.h)(0x627C6213)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_Uart.h)(0x5FBE0438)
+I (.\include\user\SL_niv.h)(0x6281EC4E)
+I (.\HARDWARE\IIS2DLPC\iis2dlpc_reg.h)(0x625CC808)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (.\MODBUS\Freemodbus\modbus\include\mb.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\port\port.h)(0x62838FC9)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (.\MODBUS\Freemodbus\modbus\include\mbport.h)(0x62833620)
+I (.\MODBUS\Freemodbus\modbus\include\mbproto.h)(0x62844BBA)
+I (.\MODBUS\Freemodbus\modbus\include\mbutils.h)(0x45783CFA)
+F (.\source\User\UserMath.c)(0x627E28F9)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\usermath.o --omf_browse .\objects\usermath.crf --depend .\objects\usermath.d)
+I (.\include\user\UserMath.h)(0x627E28FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+F (.\source\User\UserModbus.c)(0x62849177)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\usermodbus.o --omf_browse .\objects\usermodbus.crf --depend .\objects\usermodbus.d)
+I (.\include\user\UserModbus.h)(0x6281B73C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (.\MODBUS\Freemodbus\modbus\include\mb.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\port\port.h)(0x62838FC9)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (.\MODBUS\Freemodbus\modbus\include\mbport.h)(0x62833620)
+I (.\MODBUS\Freemodbus\modbus\include\mbproto.h)(0x62844BBA)
+I (.\MODBUS\Freemodbus\modbus\include\mbutils.h)(0x45783CFA)
+F (.\source\lib\OSC.lib)(0x60B9DF16)()
+F (.\source\drive\BSP\devInit.c)(0x62835CF8)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\devinit.o --omf_browse .\objects\devinit.crf --depend .\objects\devinit.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\include\drive\BSP\devInit.h)(0x627CC0F3)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_Gpio.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\MultCtrl.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\DivCtrl.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_SysClkCfg.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_Timer.h)(0x5FBE03CA)
+I (.\include\drive\BSP\BSP_uart.h)(0x627C6213)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_Uart.h)(0x5FBE0438)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\sc32f58128_can.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_func_share.h)(0x5FBE03CA)
+I (.\include\drive\BSP\BSP_gpio.h)(0x627B1B5B)
+I (.\include\drive\BSP\BSP_dma.h)(0x60B9DF16)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_dma.h)(0x5FBE03CA)
+I (.\include\drive\BSP\BSP_pwm.h)(0x6278D060)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_pwm.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\IQmathLib.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\Cordic.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_bmsk.h)(0x5FBE03CA)
+I (.\include\drive\HAL\osc.h)(0x60B9DF16)
+F (.\source\drive\BSP\BSP_gpio.c)(0x6282F9B1)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\bsp_gpio.o --omf_browse .\objects\bsp_gpio.crf --depend .\objects\bsp_gpio.d)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (.\include\drive\BSP\BSP_gpio.h)(0x627B1B5B)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_Gpio.h)(0x5FBE03CA)
+F (.\source\drive\BSP\BSP_dma.c)(0x60B9DF16)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\bsp_dma.o --omf_browse .\objects\bsp_dma.crf --depend .\objects\bsp_dma.d)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (.\include\drive\BSP\BSP_dma.h)(0x60B9DF16)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_dma.h)(0x5FBE03CA)
+I (.\include\drive\HAL\osc.h)(0x60B9DF16)
+I (.\include\drive\BSP\BSP_uart.h)(0x627C6213)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_Uart.h)(0x5FBE0438)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\sc32f58128_can.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_func_share.h)(0x5FBE03CA)
+F (.\source\drive\BSP\BSP_uart.c)(0x62848440)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\bsp_uart.o --omf_browse .\objects\bsp_uart.crf --depend .\objects\bsp_uart.d)
+I (.\include\drive\BSP\BSP_uart.h)(0x627C6213)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_Uart.h)(0x5FBE0438)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\sc32f58128_can.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_func_share.h)(0x5FBE03CA)
+F (.\source\drive\BSP\BSP_iic.c)(0x627869B4)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\bsp_iic.o --omf_browse .\objects\bsp_iic.crf --depend .\objects\bsp_iic.d)
+I (.\include\drive\BSP\BSP_iic.h)(0x62765C07)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_Gpio.h)(0x5FBE03CA)
+F (.\source\drive\BSP\BSP_pwm.c)(0x6279C8C6)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\bsp_pwm.o --omf_browse .\objects\bsp_pwm.crf --depend .\objects\bsp_pwm.d)
+I (.\include\drive\BSP\BSP_pwm.h)(0x6278D060)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_pwm.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\IQmathLib.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\MultCtrl.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\DivCtrl.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\Cordic.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_bmsk.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_gpio.h)(0x5FBE03CA)
+F (.\source\drive\HAL\timer4Tick.c)(0x627CBDBC)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\timer4tick.o --omf_browse .\objects\timer4tick.crf --depend .\objects\timer4tick.d)
+I (.\include\drive\HAL\timer4Tick.h)(0x60B9DF16)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+F (.\HARDWARE\IIS2DLPC\iis2dlpc_reg.c)(0x627621E9)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\iis2dlpc_reg.o --omf_browse .\objects\iis2dlpc_reg.crf --depend .\objects\iis2dlpc_reg.d)
+I (HARDWARE\IIS2DLPC\iis2dlpc_reg.h)(0x625CC808)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+F (.\MODBUS\Freemodbus\modbus\rtu\mbcrc.c)(0x45D891E4)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\mbcrc.o --omf_browse .\objects\mbcrc.crf --depend .\objects\mbcrc.d)
+I (.\MODBUS\Freemodbus\port\port.h)(0x62838FC9)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+F (.\MODBUS\Freemodbus\modbus\rtu\mbrtu.c)(0x62849651)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\mbrtu.o --omf_browse .\objects\mbrtu.crf --depend .\objects\mbrtu.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\MODBUS\Freemodbus\port\port.h)(0x62838FC9)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (.\MODBUS\Freemodbus\modbus\include\mb.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbport.h)(0x62833620)
+I (.\MODBUS\Freemodbus\modbus\include\mbproto.h)(0x62844BBA)
+I (MODBUS\Freemodbus\modbus\rtu\mbrtu.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbframe.h)(0x45783CFA)
+I (MODBUS\Freemodbus\modbus\rtu\mbcrc.h)(0x45783CFA)
+F (.\MODBUS\Freemodbus\modbus\ascii\mbascii.c)(0x5E71CF25)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\mbascii.o --omf_browse .\objects\mbascii.crf --depend .\objects\mbascii.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\MODBUS\Freemodbus\port\port.h)(0x62838FC9)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (.\MODBUS\Freemodbus\modbus\include\mb.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbport.h)(0x62833620)
+I (.\MODBUS\Freemodbus\modbus\include\mbproto.h)(0x62844BBA)
+I (.\MODBUS\Freemodbus\modbus\include\mbconfig.h)(0x5E71AF66)
+I (MODBUS\Freemodbus\modbus\ascii\mbascii.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbframe.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\rtu\mbcrc.h)(0x45783CFA)
+F (.\MODBUS\Freemodbus\modbus\functions\mbfunccoils.c)(0x45D89124)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\mbfunccoils.o --omf_browse .\objects\mbfunccoils.crf --depend .\objects\mbfunccoils.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\MODBUS\Freemodbus\port\port.h)(0x62838FC9)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (.\MODBUS\Freemodbus\modbus\include\mb.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbport.h)(0x62833620)
+I (.\MODBUS\Freemodbus\modbus\include\mbproto.h)(0x62844BBA)
+I (.\MODBUS\Freemodbus\modbus\include\mbframe.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbconfig.h)(0x5E71AF66)
+F (.\MODBUS\Freemodbus\modbus\functions\mbfuncdiag.c)(0x45783CFA)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\mbfuncdiag.o --omf_browse .\objects\mbfuncdiag.crf --depend .\objects\mbfuncdiag.d)
+F (.\MODBUS\Freemodbus\modbus\functions\mbfuncdisc.c)(0x45D89152)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\mbfuncdisc.o --omf_browse .\objects\mbfuncdisc.crf --depend .\objects\mbfuncdisc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\MODBUS\Freemodbus\port\port.h)(0x62838FC9)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (.\MODBUS\Freemodbus\modbus\include\mb.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbport.h)(0x62833620)
+I (.\MODBUS\Freemodbus\modbus\include\mbproto.h)(0x62844BBA)
+I (.\MODBUS\Freemodbus\modbus\include\mbframe.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbconfig.h)(0x5E71AF66)
+F (.\MODBUS\Freemodbus\modbus\functions\mbfuncholding.c)(0x45D89166)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\mbfuncholding.o --omf_browse .\objects\mbfuncholding.crf --depend .\objects\mbfuncholding.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\MODBUS\Freemodbus\port\port.h)(0x62838FC9)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (.\MODBUS\Freemodbus\modbus\include\mb.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbport.h)(0x62833620)
+I (.\MODBUS\Freemodbus\modbus\include\mbproto.h)(0x62844BBA)
+I (.\MODBUS\Freemodbus\modbus\include\mbframe.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbconfig.h)(0x5E71AF66)
+F (.\MODBUS\Freemodbus\modbus\functions\mbfuncinput.c)(0x46E767FC)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\mbfuncinput.o --omf_browse .\objects\mbfuncinput.crf --depend .\objects\mbfuncinput.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\MODBUS\Freemodbus\port\port.h)(0x62838FC9)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (.\MODBUS\Freemodbus\modbus\include\mb.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbport.h)(0x62833620)
+I (.\MODBUS\Freemodbus\modbus\include\mbproto.h)(0x62844BBA)
+I (.\MODBUS\Freemodbus\modbus\include\mbframe.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbconfig.h)(0x5E71AF66)
+F (.\MODBUS\Freemodbus\modbus\functions\mbfuncother.c)(0x45783CFA)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\mbfuncother.o --omf_browse .\objects\mbfuncother.crf --depend .\objects\mbfuncother.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\MODBUS\Freemodbus\port\port.h)(0x62838FC9)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (.\MODBUS\Freemodbus\modbus\include\mb.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbport.h)(0x62833620)
+I (.\MODBUS\Freemodbus\modbus\include\mbproto.h)(0x62844BBA)
+I (.\MODBUS\Freemodbus\modbus\include\mbframe.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbconfig.h)(0x5E71AF66)
+F (.\MODBUS\Freemodbus\modbus\functions\mbutils.c)(0x45D89194)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\mbutils.o --omf_browse .\objects\mbutils.crf --depend .\objects\mbutils.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\MODBUS\Freemodbus\port\port.h)(0x62838FC9)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (.\MODBUS\Freemodbus\modbus\include\mb.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbport.h)(0x62833620)
+I (.\MODBUS\Freemodbus\modbus\include\mbproto.h)(0x62844BBA)
+F (.\MODBUS\Freemodbus\modbus\tcp\mbtcp.c)(0x45783CFA)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\mbtcp.o --omf_browse .\objects\mbtcp.crf --depend .\objects\mbtcp.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\MODBUS\Freemodbus\port\port.h)(0x62838FC9)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (.\MODBUS\Freemodbus\modbus\include\mb.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbport.h)(0x62833620)
+I (.\MODBUS\Freemodbus\modbus\include\mbproto.h)(0x62844BBA)
+I (.\MODBUS\Freemodbus\modbus\include\mbconfig.h)(0x5E71AF66)
+I (MODBUS\Freemodbus\modbus\tcp\mbtcp.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbframe.h)(0x45783CFA)
+F (.\MODBUS\Freemodbus\modbus\mb.c)(0x628453ED)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\mb.o --omf_browse .\objects\mb.crf --depend .\objects\mb.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (.\MODBUS\Freemodbus\port\port.h)(0x62838FC9)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (.\MODBUS\Freemodbus\modbus\include\mb.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbport.h)(0x62833620)
+I (.\MODBUS\Freemodbus\modbus\include\mbproto.h)(0x62844BBA)
+I (.\MODBUS\Freemodbus\modbus\include\mbconfig.h)(0x5E71AF66)
+I (.\MODBUS\Freemodbus\modbus\include\mbframe.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbfunc.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\rtu\mbrtu.h)(0x45783CFA)
+F (.\MODBUS\Freemodbus\port\portevent.c)(0x44EB2432)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\portevent.o --omf_browse .\objects\portevent.crf --depend .\objects\portevent.d)
+I (.\MODBUS\Freemodbus\modbus\include\mb.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\port\port.h)(0x62838FC9)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (.\MODBUS\Freemodbus\modbus\include\mbport.h)(0x62833620)
+I (.\MODBUS\Freemodbus\modbus\include\mbproto.h)(0x62844BBA)
+F (.\MODBUS\Freemodbus\port\portserial.c)(0x62849651)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\portserial.o --omf_browse .\objects\portserial.crf --depend .\objects\portserial.d)
+I (MODBUS\Freemodbus\port\port.h)(0x62838FC9)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (.\MODBUS\Freemodbus\modbus\include\mb.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbport.h)(0x62833620)
+I (.\MODBUS\Freemodbus\modbus\include\mbproto.h)(0x62844BBA)
+I (.\include\drive\BSP\BSP_uart.h)(0x627C6213)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_Uart.h)(0x5FBE0438)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\sc32f58128_can.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_func_share.h)(0x5FBE03CA)
+F (.\MODBUS\Freemodbus\port\porttimer.c)(0x628496C7)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\porttimer.o --omf_browse .\objects\porttimer.crf --depend .\objects\porttimer.d)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_timer.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (MODBUS\Freemodbus\port\port.h)(0x62838FC9)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (.\MODBUS\Freemodbus\modbus\include\mb.h)(0x45783CFA)
+I (.\MODBUS\Freemodbus\modbus\include\mbport.h)(0x62833620)
+I (.\MODBUS\Freemodbus\modbus\include\mbproto.h)(0x62844BBA)
+I (.\include\drive\BSP\devInit.h)(0x627CC0F3)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_Gpio.h)(0x5FBE03CA)
+I (.\include\drive\HAL\osc.h)(0x60B9DF16)
+F (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Source\ARM\startup_SC32F58128.s)(0x5FBE03CA)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1"--list .\listings\startup_sc32f58128.lst --xref -o .\objects\startup_sc32f58128.o --depend .\objects\startup_sc32f58128.d)
+F (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Source\system_SC32F58128.c)(0x5FBE03CA)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\system_sc32f58128.o --omf_browse .\objects\system_sc32f58128.crf --depend .\objects\system_sc32f58128.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+F (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\source\SC32F58128_SysClkCfg.c)(0x5FBE03CA)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\sc32f58128_sysclkcfg.o --omf_browse .\objects\sc32f58128_sysclkcfg.crf --depend .\objects\sc32f58128_sysclkcfg.d)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_SysClkCfg.h)(0x5FBE03CA)
+F (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\source\SC32F58128_can.c)(0x5FBE03CA)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\sc32f58128_can.o --omf_browse .\objects\sc32f58128_can.crf --depend .\objects\sc32f58128_can.d)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\sc32f58128_can.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_func_share.h)(0x5FBE03CA)
+F (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\source\SC32F58128_dma.c)(0x5FBE03CA)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\sc32f58128_dma.o --omf_browse .\objects\sc32f58128_dma.crf --depend .\objects\sc32f58128_dma.d)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_dma.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+F (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\source\SC32F58128_gpio.c)(0x5FBE0438)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\sc32f58128_gpio.o --omf_browse .\objects\sc32f58128_gpio.crf --depend .\objects\sc32f58128_gpio.d)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_gpio.h)(0x5FBE03CA)
+F (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\source\SC32F58128_iic.c)(0x5FBE03CA)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\sc32f58128_iic.o --omf_browse .\objects\sc32f58128_iic.crf --depend .\objects\sc32f58128_iic.d)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_iic.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+F (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\source\SC32F58128_pwm.c)(0x5FBE0438)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\sc32f58128_pwm.o --omf_browse .\objects\sc32f58128_pwm.crf --depend .\objects\sc32f58128_pwm.d)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_pwm.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\IQmathLib.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\MultCtrl.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\DivCtrl.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\Cordic.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_bmsk.h)(0x5FBE03CA)
+F (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\source\SC32F58128_qep.c)(0x5FBE03CA)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\sc32f58128_qep.o --omf_browse .\objects\sc32f58128_qep.crf --depend .\objects\sc32f58128_qep.d)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_qep.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\IQmathlib.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x599ECD2A)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\MultCtrl.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\DivCtrl.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\Cordic.h)(0x5FBE03CA)
+F (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\source\SC32F58128_spi.c)(0x5FBE03CA)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\sc32f58128_spi.o --omf_browse .\objects\sc32f58128_spi.crf --depend .\objects\sc32f58128_spi.d)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_spi.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_func_share.h)(0x5FBE03CA)
+F (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\source\SC32F58128_timer.c)(0x5FBE0438)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\sc32f58128_timer.o --omf_browse .\objects\sc32f58128_timer.crf --depend .\objects\sc32f58128_timer.d)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_timer.h)(0x5FBE03CA)
+F (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\source\SC32F58128_uart.c)(0x5FBE0438)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I .\include\drive\BSP -I .\include\drive\M0DRV -I .\include\drive\HAL -I .\include\lib -I .\include\pfc -I .\include\user -I .\include\lib\math_blocks\v4.0 -I .\include\drive\HAL -I .\include\motorLib -I .\include\Hisense_Leovel0_include\common -I .\HARDWARE\IIS2DLPC -I .\MODBUS\Freemodbus\modbus\ascii -I .\MODBUS\Freemodbus\modbus\functions -I .\MODBUS\Freemodbus\modbus\include -I .\MODBUS\Freemodbus\modbus\rtu -I .\MODBUS\Freemodbus\modbus\tcp -I .\MODBUS\Freemodbus\port -I .\MODBUS\Freemodbus\modbus --diag_suppress=1 --diag_suppress=177 --diag_suppress=550-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\sc32f58128_uart.o --omf_browse .\objects\sc32f58128_uart.crf --depend .\objects\sc32f58128_uart.d)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_uart.h)(0x5FBE0438)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\SC32F58128.h)(0x5FBE03CA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Device\Include\system_SC32F58128.h)(0x5FBE03CA)
