@@ -40,27 +40,16 @@
 void BSP_GpioInit(void)
 {
   /* UART Gpio Config */
-//  GPIO_MuxSel(GPIO_WATCHER_TXD, UART0_HS_TXD_29);
-//  GPIO_MuxSel(GPIO_WATCHER_RXD, UART0_HS_RXD_28);
-//	
-//	GPIO_MuxSel(GPIO_UART1_TXD, UART1_LS_TXD_31);
-//  GPIO_MuxSel(GPIO_UART1_RXD, UART1_LS_RXD_30);
-	
-	GPIO_MuxSel(GPIO_UART2_TXD, UART2_LS_TXD_22);
-  GPIO_MuxSel(GPIO_UART2_RXD, UART2_LS_RXD_23);
 
-//  GPIO_PullUpDownSel(GPIO_WATCHER_RXD, PULL_UP);
-//	GPIO_PullUpDownSel(GPIO_UART1_RXD, PULL_UP);
-	GPIO_PullUpDownSel(GPIO_UART2_RXD, PULL_UP);
 
   /* LED Gpio Config */
-  GPIO_OutputEnable(GPIO_LED1);
-  GPIO_OutputEnable(GPIO_LED2);
-  GPIO_OutputEnable(GPIO_LED3);
-	GPIO_OutputEnable(GPIO_31);
-	LED1_OFF;
-	LED2_OFF;
-	LED3_OFF;
+//  GPIO_OutputEnable(GPIO_LED1);
+//  GPIO_OutputEnable(GPIO_LED2);
+//  GPIO_OutputEnable(GPIO_LED3);
+//	GPIO_OutputEnable(GPIO_31);
+//	LED1_OFF;
+//	LED2_OFF;
+//	LED3_OFF;
 }
 
 

@@ -145,31 +145,31 @@ extern int UARTNum;
 * @param  None
 * @retval None
 */
-void UART0_IRQHandler(void)
-{
-  volatile uint8_t tt;
+//void UART0_IRQHandler(void)
+//{
+//  volatile uint8_t tt;
 
-  /* Receive Interrupt */
-  if(IS_INT_RX())
-  {
-    //DBG_SetRxData(UART_BUFF);
-		//UARTNum=UART_ReceiveData(UART2);
-    CLR_INT_FLAG_RX();
-  }
+//  /* Receive Interrupt */
+//  if(IS_INT_RX())
+//  {
+//    //DBG_SetRxData(UART_BUFF);
+//		//UARTNum=UART_ReceiveData(UART2);
+//    CLR_INT_FLAG_RX();
+//  }
 
-  /* Transmit Interrupt */
-  if(IS_INT_TX())
-  {
-    CLR_INT_FLAG_TX();
-  }
+//  /* Transmit Interrupt */
+//  if(IS_INT_TX())
+//  {
+//    CLR_INT_FLAG_TX();
+//  }
 
-  /* Overrun Error Interrupt */
-  if(IS_INT_OE())
-  {
-   // tt = UART_BUFF;
-    UART_REST_OE();
-  }
-}
+//  /* Overrun Error Interrupt */
+//  if(IS_INT_OE())
+//  {
+//   // tt = UART_BUFF;
+//    UART_REST_OE();
+//  }
+//}
 
 
 

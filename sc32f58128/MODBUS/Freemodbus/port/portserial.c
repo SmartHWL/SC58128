@@ -35,19 +35,19 @@ vMBPortSerialEnable( BOOL xRxEnable, BOOL xTxEnable )
 {
   if(xRxEnable)
   {
-    UART_INT_EN_RX(2);
+    UART_INT_EN_RX(0);
   }
   else
   {
-		UART_INT_DISEN_RX(2);
+		UART_INT_DISEN_RX(0);
   }
   if(xTxEnable)
   {
-		UART_INT_EN_TX(2);
+		UART_INT_EN_TX(0);
   }
 	else
 	{
-		UART_INT_DISEN_TX(2);
+		UART_INT_DISEN_TX(0);
 	}
 }
 
@@ -61,14 +61,14 @@ xMBPortSerialInit( UCHAR ucPORT, ULONG ulBaudRate, UCHAR ucDataBits, eMBParity e
 BOOL
 xMBPortSerialPutByte( CHAR ucByte )
 {
-  UART2->UARTDR_b.DATA = ucByte;
+  UART0->UARTDR_b.DATA = ucByte;
   return TRUE;
 }
 BOOL
 xMBPortSerialGetByte( CHAR * pucByte )
 {
 	static int num=0;
-	(*pucByte) = (uint8_t)UART2->UARTDR_b.DATA;
+	(*pucByte) = (uint8_t)UART0->UARTDR_b.DATA;
   return TRUE;
 }
 
@@ -100,7 +100,7 @@ prvvUARTRxISR( void )
 * @param  None
 * @retval None
 */
-void UART12_IRQHandler(void){
+void UART0_IRQHandler(void){
 	
 	if(IS_INT_RX()){
 		prvvUARTRxISR(); 

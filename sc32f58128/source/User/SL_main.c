@@ -82,6 +82,7 @@ int main_c1(void)
   * @note
   */
 int testnum=0;
+uint8_t TestArray[10]={1,2,3,4,5,6,7,8,9,0};
 int GetPIN=-1;
 int PWM0A_Duty=0;
 
@@ -92,7 +93,7 @@ int main(void){
 
 	/* MODBUS Init */
 	/* FreeModbus Init,RTU,SlaveID:0x01,UART2,baud:9600*/
-	eMBInit(MB_RTU, 0x01, 2, 9600, MB_PAR_NONE);
+	eMBInit(MB_RTU, 0x01, 0, 9600, MB_PAR_NONE);
   eMBEnable();
 	
 	/* Software Timer Init */
@@ -112,6 +113,7 @@ int main(void){
     
     if(IS_100MS_FLG_SET(g_Tmr4C0)){
 			testnum++;
+		//	UART_SendArray(UART0,TestArray,10);
 			PWM0A_Duty=testnum*500;
 			if(testnum==1){
 				//PWM_DUTYA_UPDATE_SINGLE(0,PWM0A_Duty);

@@ -4,8 +4,26 @@ struct UARTFIFO s_ufifo;
 
 void BSP_UartInit(uint8_t ch,uint32_t baud){
 	
-	UartInit(ch, baud, UART_BIT8, PARITY_NONE, STOPBITS_ONE, UART_FIFO_DISABLE, UART_FIFO_DISABLE);
+  switch(ch){
+		case 0:{
+			GPIO_MuxSel(GPIO_WATCHER_TXD, UART0_HS_TXD_29);
+      GPIO_MuxSel(GPIO_WATCHER_RXD, UART0_HS_RXD_28);
+			GPIO_PullUpDownSel(GPIO_WATCHER_RXD, PULL_UP);
+		}break;
+		case 1:{
+			GPIO_MuxSel(GPIO_UART1_TXD, UART1_LS_TXD_31);
+      GPIO_MuxSel(GPIO_UART1_RXD, UART1_LS_RXD_30);
+			GPIO_PullUpDownSel(GPIO_UART1_RXD, PULL_UP);
+		}break;
+		case 2:{
+			GPIO_MuxSel(GPIO_UART2_TXD, UART2_LS_TXD_22);
+      GPIO_MuxSel(GPIO_UART2_RXD, UART2_LS_RXD_23);
+			GPIO_PullUpDownSel(GPIO_UART2_RXD, PULL_UP);
+		}break;
+		default: break;
+	}
 	
+	UartInit(ch, baud, UART_BIT8, PARITY_NONE, STOPBITS_ONE, UART_FIFO_DISABLE, UART_FIFO_DISABLE);
 	//UartInit(ch, baud, UART_BIT8, PARITY_NONE, STOPBITS_ONE, UART_FIFO_DISABLE, UART_FIFO_rsvd0);//UART_FIFO_rsvd0
 
 	UARTCH[ch]->UARTIMSC_b.Receive_IM    = 1;             //UART_INT_EN_RX(0);

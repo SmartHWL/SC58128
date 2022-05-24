@@ -17,10 +17,11 @@
 #include "SC32F58128.h"
 #include "SC32F58128_Uart.h"
 #include "sc32f58128_can.h"
+#include "BSP_gpio.h"
 /********************************************************************************
  * Constants and macros
  *******************************************************************************/
-#define DEBUG_UART   2
+#define DEBUG_UART   0
 
 #if (DEBUG_UART==0)
     #define IS_INT_RX()          IS_INT_MASK_RX(0)

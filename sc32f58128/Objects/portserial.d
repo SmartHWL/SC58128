@@ -17,3 +17,5 @@
 .\objects\portserial.o: C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_Uart.h
 .\objects\portserial.o: C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\sc32f58128_can.h
 .\objects\portserial.o: C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_func_share.h
+.\objects\portserial.o: .\include\drive\BSP\BSP_gpio.h
+.\objects\portserial.o: C:\Keil_v5\ARM\PACK\Keil\SC32F58xx_DFP\1.3.0\Driver\include\SC32F58128_Gpio.h
